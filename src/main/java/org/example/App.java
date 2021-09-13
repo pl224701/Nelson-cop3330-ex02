@@ -10,7 +10,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println("What is the input string?" );
+        System.out.print("What is the input string?" );
         Scanner sc= new Scanner(System.in);
         String str = sc.nextLine();
         int length=str.length();
